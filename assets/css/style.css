@@ -22,7 +22,7 @@ body {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 30px;
+    margin-left: 32%;
     width: 240px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -126,13 +126,13 @@ article {
 }
 #messagebox {
     height: 300px;
-    width: 600px;
+    width: 400px;
 }
 #emailbox {
-    width: 600px;
+    width: 400px;
 }
 #namebox {
-    width: 600px;
+    width: 400px;
 }
 
 
@@ -152,3 +152,56 @@ footer {
     border-top-width: 5px;
     border-top-color: #4aaaa5;
 }
+
+
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    .content-wrapper{
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 8%;
+        clear: both;}
+    #namebox {
+        width: 300px;}
+    #emailbox {
+            width: 300px;}
+    #messagebox {
+        width: 400px;
+        height: 400px;}
+    h2 {
+        margin-left: 13%;}
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-wrapper{
+        width: 60%;
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 8%;
+        clear: both;}
+    #namebox {
+        width: 250px;}
+    #emailbox {
+        width: 250px;}
+    #messagebox {
+        width: 400px;
+        height: 400px;
+}}
+
+@media screen and (max-width: 640px) {
+    .content-wrapper{
+        width: 40%;
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 8%;
+        clear: both;}
+    #namebox {
+        width: 150px;}
+    #emailbox {
+        width: 150px;}
+    #messagebox {
+        width: 250px;
+        height: 200px;
+}}
