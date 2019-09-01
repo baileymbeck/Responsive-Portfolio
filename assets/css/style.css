@@ -1,0 +1,154 @@
+body {
+    background-color:beige;
+    background-blend-mode: hard-light;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.list {
+    background: #ffffff;
+    list-style-type: none;
+    width: 400px;
+    }
+
+.list-spec {
+    border-right: #777777 1px solid;
+    float: right;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 30px;
+    width: 240px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    text-align: left;
+    margin-left: 30px;
+}
+
+p {
+    color: #777777;
+    font-size: 18px;
+    text-align: left;
+}
+.photo {
+    position: relative;
+    float: left;
+    width: 250px;
+    margin: 20px 0 25px;
+    margin-right: 45px;
+    overflow: auto;
+ }
+
+ .photo:nth-child(even){
+    margin-right: 55px;
+  }
+  
+  .photo img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .photo h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+nav {
+    margin-top: 28px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+  }
+
+.white-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 960px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #777777;
+}
+
+.content-wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 8%;
+    clear: both;
+}
+article {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.title-name {
+    float: left;
+    left: 30px;
+    
+}
+.link-wrapper {
+    float: right;
+  
+}
+#messagebox {
+    height: 300px;
+    width: 600px;
+}
+#emailbox {
+    width: 600px;
+}
+#namebox {
+    width: 600px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    clear: both;
+    color: #ffffff;
+    color: #cccccc;
+    font-size: 12px;
+    text-align: center;
+    background:#777777;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+}
