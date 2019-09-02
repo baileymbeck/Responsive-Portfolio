@@ -160,8 +160,13 @@ footer {
         width: 80%;
         max-width: 960px;
         margin: 0 auto;
-        margin-top: 8%;
+        margin-top: 15%;
         clear: both;}
+    nav {
+        margin-top: -61px;
+        margin-right: 5%;
+        width: 500px;
+    }
     #namebox {
         width: 300px;}
     #emailbox {
@@ -169,8 +174,12 @@ footer {
     #messagebox {
         width: 400px;
         height: 400px;}
+    h1 {
+        margin-left: 20%;
+    }
     h2 {
         margin-left: 13%;}
+    
 }
 
 
@@ -179,7 +188,7 @@ footer {
         width: 60%;
         max-width: 960px;
         margin: 0 auto;
-        margin-top: 8%;
+        margin-top: 15%;
         clear: both;}
     #namebox {
         width: 250px;}
@@ -205,3 +214,5 @@ footer {
         width: 250px;
         height: 200px;
 }}
+
+/*is this looking right?*/
