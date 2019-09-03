@@ -203,16 +203,28 @@ footer {
     .content-wrapper{
         width: 40%;
         max-width: 960px;
+        margin-top: 15%;
         margin: 0 auto;
-        margin-top: 8%;
         clear: both;}
+    article {
+        margin-top: 37%;
+    }
+    h1 {
+        margin-left: 35%;
+    }
     #namebox {
         width: 150px;}
     #emailbox {
         width: 150px;}
     #messagebox {
         width: 250px;
-        height: 200px;
-}}
+        height: 200px;}
+    nav {
+        margin-top: -2%;
+        margin-right: 18%;
+    }
+    
+    
+}
 
 /*is this looking right?*/
