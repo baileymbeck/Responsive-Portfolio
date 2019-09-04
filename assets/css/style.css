@@ -286,12 +286,15 @@ footer {
         margin-top: 37%;
         padding-left: 45px;
     }
+    .profile {
+        margin: 10px 4px 10px 1px;
+    }
     .photo {
         position: relative;
         float: left;
-        width: 249px;
-        margin: 20px 0 25px;
-        margin-right: 45px;
+        width: 150px;
+        margin: 10px 0 10px 35px;
+        
         overflow: auto;
         }
     .photo-grid {
