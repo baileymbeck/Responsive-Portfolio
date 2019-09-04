@@ -1,10 +1,10 @@
 body {
-    background-color:beige;
+    background: beige;
+    background-image: url("./assets/images/concrete_seamless.png");
     background-blend-mode: hard-light;
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 
 .list {
     background: #ffffff;
@@ -102,7 +102,7 @@ nav {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    margin-top: 8%;
+    margin-top: 0;
     clear: both;
 }
 article {
@@ -160,25 +160,42 @@ footer {
         width: 80%;
         max-width: 960px;
         margin: 0 auto;
-        margin-top: 15%;
+        margin-top: 6%;
         clear: both;}
     nav {
         margin-top: -61px;
         margin-right: 5%;
         width: 500px;
     }
+    .link-wrapper {
+        margin-right: 2%;
+    }
     #namebox {
-        width: 300px;}
+        width: 400px;}
     #emailbox {
-            width: 300px;}
+            width: 400px;}
     #messagebox {
         width: 400px;
-        height: 400px;}
+        height: 200px;}
     h1 {
         margin-left: 20%;
     }
     h2 {
         margin-left: 13%;}
+    .photo-grid {
+        margin-left: 13%;
+        padding: 1px;
+    }
+    h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 13px;
+    }
+    .contactform {
+        padding: 10px;
+        margin-left: 12%;
+    }
+
     
 }
 
@@ -188,16 +205,76 @@ footer {
         width: 60%;
         max-width: 960px;
         margin: 0 auto;
-        margin-top: 15%;
+        margin-top: 6%;
         clear: both;}
+    .link-wrapper {
+        margin-right: 0;
+    }
     #namebox {
-        width: 250px;}
+        width: 400px;
+        }
     #emailbox {
-        width: 250px;}
+        width: 400px;}
     #messagebox {
         width: 400px;
-        height: 400px;
-}}
+        height: 200px;}
+
+    .photo {
+        position: relative;
+        float: left;
+        width: 160px;
+        margin: 20px 0 25px;
+        margin-right: 40px;
+        overflow: auto;
+        }
+        
+        .photo:nth-child(even){
+        margin-right: 55px;
+        }
+        
+        .photo img {
+        width: 100%;
+        border: 0 none;
+        opacity: 0.8;
+        }
+        
+        .photo h3 {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        padding: 2px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+        }
+
+    .photo-grid {
+        margin-left: 6%;
+        padding: 4px;
+    }
+    h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 13px;
+    }
+    h2 {
+        color: #4aaaa5;
+        text-align: left;
+        margin-left: 1%;
+    }
+    .contactform {
+        padding: 10px;
+        margin-left: -1%;
+    }
+    
+    }
+
+
+
 
 @media screen and (max-width: 640px) {
     .content-wrapper{
@@ -208,22 +285,48 @@ footer {
         clear: both;}
     article {
         margin-top: 37%;
+        padding-left: 45px;
+    }
+    .photo {
+        position: relative;
+        float: left;
+        width: 249px;
+        margin: 20px 0 25px;
+        margin-right: 45px;
+        overflow: auto;
+        }
+    .photo-grid {
+        margin-left: 0;
     }
     h1 {
         margin-left: 35%;
     }
     #namebox {
-        width: 150px;}
+        width: 250px;}
     #emailbox {
-        width: 150px;}
+        width: 250px;}
     #messagebox {
         width: 250px;
         height: 200px;}
     nav {
         margin-top: -2%;
-        margin-right: 18%;
+        margin-right: 24%;
     }
     
+    .link-wrapper {
+        padding: 8px;
+        margin-right: 19%;
+    }
+
+    .title-name {
+        width: 100%;
+        padding: 16px;
+        margin: 0;
+    }
+    .contactform {
+        margin-left: -1%;
+        padding: 2px
+    }
     
 }
 
