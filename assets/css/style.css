@@ -162,9 +162,11 @@ footer {
         margin-top: 6%;
         clear: both;}
     nav {
-        margin-top: -61px;
-        margin-right: 5%;
-        width: 500px;
+        margin: -61px 12%;
+        width: 503px;
+    }
+    article {
+        width: 75%;
     }
     .link-wrapper {
         margin-right: 2%;
@@ -176,23 +178,52 @@ footer {
     #messagebox {
         width: 400px;
         height: 200px;}
-    h1 {
-        margin-left: 20%;
-    }
     h2 {
-        margin-left: 13%;}
+        margin-left: 2%;
+    }
+    .photo {
+        position: relative;
+        float: left;
+        width: 160px;
+        margin: 20px 0 25px;
+        margin-right: 40px;
+        overflow: auto;
+        }
+        
+        .photo:nth-child(even){
+        margin-right: 55px;
+        }
+        
+        .photo img {
+        width: 100%;
+        border: 0 none;
+        opacity: 0.8;
+        }
+        
+        .photo h3 {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        padding: 2px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+        }
     .photo-grid {
         margin-left: 13%;
         padding: 1px;
     }
     h1{
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0 auto 0 10%;
         padding: 13px;
     }
     .contactform {
         padding: 10px;
-        margin-left: 12%;
+        margin-left: 2%;
     }
 
     
@@ -201,9 +232,9 @@ footer {
 
 @media screen and (max-width: 768px) {
     .content-wrapper{
-        width: 60%;
+        width: 80%;
         max-width: 960px;
-        margin: 0 auto;
+        margin: 6% auto auto 10%;
         margin-top: 6%;
         clear: both;}
     .link-wrapper {
@@ -256,8 +287,7 @@ footer {
         padding: 4px;
     }
     h1{
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0 auto 0 10%;
         padding: 13px;
     }
     h2 {
@@ -283,11 +313,9 @@ footer {
         margin: 0 auto;
         clear: both;}
     article {
+        width: 100%;
         margin-top: 37%;
         padding-left: 45px;
-    }
-    .profile {
-        margin: 10px 4px 10px 1px;
     }
     .photo {
         position: relative;
@@ -300,8 +328,18 @@ footer {
     .photo-grid {
         margin-left: 0;
     }
+    #profile-photo {
+        position: relative;
+        float: left;
+        width: 250px;
+        margin: 10px 0 10px 0px;
+        overflow: auto;
+    }
     h1 {
         margin-left: 35%;
+    }
+    h2 {
+        margin-left: 2%;
     }
     #namebox {
         width: 250px;}
@@ -316,8 +354,9 @@ footer {
     }
     
     .link-wrapper {
-        padding: 8px;
-        margin-right: 19%;
+        margin-top: -12%;
+        margin-right: 8%;
+        padding: 12%;
     }
 
     .title-name {
@@ -331,5 +370,3 @@ footer {
     }
     
 }
-
-/*is this looking right?*/
